@@ -1,0 +1,17 @@
+/* Custom scrollbar for slider only */
+.custom-scrollbar::-webkit-scrollbar {
+    height: 4px;
+    /* Altura de la barra horizontal */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color:rgb(2, 135, 158);
+    /* Color del thumb */
+    border-radius: 10px;
+    /* Redondeo del thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #e5e7eb;
+    /* Color del track */
+}
