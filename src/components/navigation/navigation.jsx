@@ -23,7 +23,7 @@ export function Navigation() {
 
   return (
     <nav className="bg-white fixed top-0 w-full z-50 shadow-sm">
-      <div className="w-full flex flex-wrap items-center justify-between mx-auto p-4 pl-10 pr-10">
+      <div className="w-full flex flex-wrap items-center justify-between mx-auto  p-4 sm:pl-10 sm:pr-10">
         <Link href="/">
           <p className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="/logo.jpeg" className="h-10" alt="ENVAPLASTIC Logo" />

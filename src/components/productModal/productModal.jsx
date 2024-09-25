@@ -24,7 +24,7 @@ export default function ProductModal({ product, onClose }) {
           </button>
 
           {/* Imagen del producto */}
-          <div className="w-full flex justify-center md:w-1/2 h-[350px] md:h-full">
+          <div className="w-full flex justify-center md:w-1/2 h-[300px] md:h-full">
             <img
               src={product.imagen}
               alt={product.detalles.nombre.descripcion}

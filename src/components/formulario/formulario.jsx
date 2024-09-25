@@ -90,8 +90,8 @@ export function Formulario() {
     };
 
     return (
-        <section className="mx-auto p-6 bg-white rounded-lg shadow-md">
-            <h2 className="text-xl font-bold mb-4">Contacto</h2>
+        <section className="mx-auto p-6 bg-white rounded-lg shadow-lg">
+            <h2 className="text-xl text-black font-bold mb-4">Contáctanos</h2>
             <form id="#formularioContacto" onSubmit={handleSubmit}>
                 {/* <div className="grid grid-cols-2 gap-4">
                     <div>
