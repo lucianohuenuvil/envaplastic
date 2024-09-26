@@ -11,7 +11,7 @@ export default function Carousel() {
             text: "¡Bienvenidos a ENVAPLASTIC!",
             subtitle: "Explora nuestros productos y servicios",
             buttonLabel: "Explorar",
-            buttonLink: "#",
+            buttonLink: "/#nosotros",
         },
         {
             image: "/images/maquina-banner.jpg",

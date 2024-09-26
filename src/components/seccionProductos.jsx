@@ -10,15 +10,15 @@ export function SeccionProductos() {
                     src='/images/petImage.jpg'
                     alt="Imagen de productos"
                     className="w-full h-full object-cover"
-                    style={{ filter: 'brightness(50%)' }} // Ajusta el brillo según sea necesario
+                    style={{ filter: 'brightness(50%)' }} 
                 />
             </div>
             <div className="flex w-full h-full relative">
                 <h2 
                     className="text-2xl flex w-full h-full items-center justify-center md:text-5xl font-bold text-center text-white hover:text-[#fb7185]" 
-                    style={{ textDecoration: 'underline', textDecorationThickness: '2.5px' }} // Cambia el color aquí si es necesario
+                    style={{ textDecorationThickness: '2.5px' }} 
                 >
-                    Revisa nuestro catálogo de productos
+                    Productos
                 </h2>
             </div>
         </Link>

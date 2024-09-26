@@ -50,7 +50,7 @@ export function Nosotros() {
                                 NUESTRA EMPRESA
                             </h2>
                             <p className="text-md leading-8 text-gray-500  mx-auto pb-2 text-justify">
-                                En <strong>ENVAPLASTIC</strong>, somos una empresa familiar dedicada a la fabricación y venta de envases de plástico PET. Desde nuestros inicios, hemos estado dedicados
+                                <strong>ENVAPLASTIC</strong>es una empresa familiar dedicada a la fabricación y venta de envases de plástico PET. Desde nuestros inicios, hemos estado dedicados
                                 a ofrecer soluciones de envasados innovadoras y de alta calidad que satisfagan las diversas necesidades de nuestros clientes.
                             </p>
                             <p className="font-normal text-md leading-8 text-gray-500 mx-auto text-justify">
