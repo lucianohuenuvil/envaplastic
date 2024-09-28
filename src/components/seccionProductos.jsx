@@ -18,7 +18,7 @@ export function SeccionProductos() {
                     className="text-2xl flex w-full h-full items-center justify-center md:text-5xl font-bold text-center text-white hover:text-[#fb7185]" 
                     style={{ textDecorationThickness: '2.5px' }} 
                 >
-                    Productos
+                    PRODUCTOS
                 </h2>
             </div>
         </Link>
