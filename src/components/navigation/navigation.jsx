@@ -22,11 +22,11 @@ export function Navigation() {
   };
 
   return (
-    <nav className="bg-white fixed top-0 w-full z-50 shadow-sm">
+    <nav className="bg-black fixed top-0 w-full z-50 shadow-sm">
       <div className="w-full flex flex-wrap items-center justify-between mx-auto  p-4 sm:pl-10 sm:pr-10">
         <Link href="/">
           <p className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="/logo.jpeg" className="h-10" alt="ENVAPLASTIC Logo" />
+            <img src="/logo-white.png" className="h-12" alt="ENVAPLASTIC Logo" />
           </p>
         </Link>
         <div className="flex xl:hidden">
@@ -43,13 +43,13 @@ export function Navigation() {
           </button>
         </div>
         <div id="navbar-menu" className={`items-center justify-between w-full xl:flex xl:w-auto ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <ul className="flex flex-col p-2 mt-4 border border-gray-100 rounded-lg bg-gray-50 xl:flex-row xl:space-x-8 xl:mt-0 xl:border-0 xl:bg-white">
+          <ul className="flex flex-col p-2 mt-4  rounded-lg bg-gray-900 xl:bg-black xl:flex-row xl:space-x-8 xl:mt-0 xl:border-0 ">
             {links.map(link => (
               <li key={link.route}>
                 <Link href={link.route} passHref>
                   <p 
                     onClick={handleLinkClick} 
-                    className='block text-md p-2 text-gray-900 rounded hover:bg-gray-100 xl:hover:bg-transparent xl:hover:text-blue-700 xl:p-0'
+                    className='block text-md  text-white p-2 text-gray-900 rounded hover:bg-gray-800 xl:hover:bg-transparent xl:hover:text-blue-700 xl:p-0'
                   >
                     {link.label}
                   </p>
