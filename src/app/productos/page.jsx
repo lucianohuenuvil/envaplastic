@@ -136,9 +136,9 @@ const ProductosPage = () => {
 
       <div className="py-12 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-8">
+          {/* <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-gray-800">Lista de productos</h2>
-          </div>
+          </div> */}
 
           {/* Listado de productos */}
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">

@@ -18,10 +18,10 @@ const ProductCard = ({ product }) => {
           className="w-full h-[200px] xl:h-[350px] lg:h-[300px] xs:h-[250px] object-cover transition-opacity duration-300 hover:opacity-90"
         />
         <div className="p-6">
-          <h3 className=" sm:text-lg xs:text-xs font-semibold text-gray-800 text-center mb-3">{product.detalles.nombre.descripcion}</h3>
+          <h3 className=" sm:text-lg xs:text-xs font-semibold text-gray-800 text-center text-gray-400 mb-3">{product.detalles.nombre.descripcion}</h3>
           <button
             onClick={openModal}
-            className="w-full bg-[#0369a1] hover:bg-[#164e63] text-white py-3 px-4 rounded-lg hover:from-blue-500 hover:to-cyan-500 transition-all duration-300 ease-in-out text-md xs:text-sm"
+            className="w-full bg-[#0369a1] hover:bg-[#164e63] text-gray-100 py-2 px-4 rounded-lg hover:from-blue-500 hover:to-cyan-500 transition-all duration-300 ease-in-out text-md xs:text-sm"
           >
             Ver detalles
           </button>

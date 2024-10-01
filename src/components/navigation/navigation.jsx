@@ -26,7 +26,7 @@ export function Navigation() {
       <div className="w-full flex flex-wrap items-center justify-between mx-auto  p-4 sm:pl-10 sm:pr-10">
         <Link href="/">
           <p className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="/logo-white.png" className="h-12" alt="ENVAPLASTIC Logo" />
+            <img src="/logo-white.png" className="h-10" alt="ENVAPLASTIC Logo" />
           </p>
         </Link>
         <div className="flex xl:hidden">

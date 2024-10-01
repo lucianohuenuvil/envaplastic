@@ -2,7 +2,7 @@ export default function EnvasesPersonalizados() {
     return (
         <section className="mt-16 bg-white">
             {/* Sección superior */}
-            <div className="bg-[#3f3f46] relative overflow-hidden">
+            <div className="bg-[#334155] relative overflow-hidden">
                 <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8 text-center items-center">
                     <h1 className="text-4xl font-bold text-white">Envases personalizados</h1>
                     <p className="text-xl text-white mt-4">Lleva tus envases al siguiente nivel</p>

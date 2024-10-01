@@ -2,13 +2,17 @@ import Link from "next/link";
 
 export function Footer() {
     return (
-        <footer className="p-12">
+        <footer className="p-12 bg-gray-100">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <Link href="/" className="flex items-center">
-                            <img src="/logo.jpeg" className="h-9 me-3" alt="Envaplastic Logo" />
+                            <img src="/logoV2.png" className="h-9 me-3" alt="Envaplastic Logo" />
                         </Link>
+                        <br />
+                        <span className="text-sm text-gray-500 sm:text-center "> Los Duraznos 0129, La Pintana - Región Metropolitana</span>
+                        <br />
+                        <span className="text-sm text-gray-500 sm:text-center "> +569 ....</span>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 md:grid-cols-3 pt-2">
                         <div>

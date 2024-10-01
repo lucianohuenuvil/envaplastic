@@ -12,7 +12,7 @@ export default function ProductModal({ product, onClose }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white py-4 rounded-lg w-[90vw] max-h-[85vh] overflow-auto shadow-xl">
+      <div className="bg-white py-4 rounded-lg w-[70vw] max-h-[85vh] overflow-auto shadow-xl">
         <div className="relative flex flex-col md:flex-row h-full">
           {/* Botón de cierre flotante */}
           <button 

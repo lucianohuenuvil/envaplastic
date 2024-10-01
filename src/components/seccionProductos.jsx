@@ -15,7 +15,7 @@ export function SeccionProductos() {
             </div>
             <div className="flex w-full h-full relative">
                 <h2 
-                    className="text-2xl flex w-full h-full items-center justify-center md:text-5xl font-bold text-center text-white hover:text-[#fb7185]" 
+                    className="text-2xl flex w-full h-full items-center justify-center md:text-5xl font-bold text-center text-white hover:text-cyan-400" 
                     style={{ textDecorationThickness: '2.5px' }} 
                 >
                     PRODUCTOS
