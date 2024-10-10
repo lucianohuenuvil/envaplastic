@@ -10,7 +10,6 @@ export function Nosotros() {
     useEffect(() => {
         const observer = new IntersectionObserver(
             ([entry]) => {
-                console.log("Intersection observed:", entry.isIntersecting);
                 if (entry.isIntersecting) {
                     setIsVisible(true);
                     observer.unobserve(containerRef.current);
@@ -39,9 +38,9 @@ export function Nosotros() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-9 h-full">
                     <div className="img-box h-full">
                         <img
-                            src="/images/fabrica.jpg"
-                            alt="About Us tailwind page"
-                            className="max-lg:mx-auto shadow-md object-cover lg:max-h-[400px] lg:max-w-[600px] max-h-[350px] max-w-full w-full"
+                            src="/images/fondo3.jpeg"
+                            alt="About Us tailwind pagsse"
+                            className="max-lg:mx-auto brightness-75 shadow-md object-cover lg:max-h-[400px] lg:max-w-[600px] max-h-[350px] max-w-full w-full"
                         />
                     </div>
                     <div className="lg:pl-[30px] flex h-full">

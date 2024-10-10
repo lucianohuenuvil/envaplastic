@@ -7,14 +7,14 @@ export default function Carousel() {
     const [animateSlide, setAnimateSlide] = useState(null);
     const slides = [
         {
-            image: "/images/maquina-banner.jpg",
+            image: "/images/fondo1.png",
             text: "¡Bienvenidos a ENVAPLASTIC!",
             subtitle: "Explora nuestros productos y servicios",
             buttonLabel: "Explorar",
             buttonLink: "/#nosotros",
         },
         {
-            image: "/images/envases-banner.jpg",
+            image: "/images/fondo9.jpeg",
             text: "ENVAPLASTIC",
             subtitle: "En ENVAPLASTIC somos especialistas en plásticos",
             buttonLabel: null,
@@ -37,8 +37,6 @@ export default function Carousel() {
     };
 
     const resetInterval = () => {
-
-        console.log("intervalRenf", intervalRef)
         if (intervalRef.current) {
             clearInterval(intervalRef.current);
         }

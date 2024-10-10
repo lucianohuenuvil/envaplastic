@@ -10,7 +10,6 @@ export function Pet() {
     useEffect(() => {
         const observer = new IntersectionObserver(
             ([entry]) => {
-                console.log("Intersection observed:", entry.isIntersecting);
                 if (entry.isIntersecting) {
                     setIsVisible(true);
                     observer.unobserve(containerRef.current);
@@ -56,9 +55,9 @@ export function Pet() {
                             </p>                            
                         </div>
                     </div>
-                    <div className="img-box h-full">
+                    <div className="img-box h-full brightness-75">
                         <img
-                            src="/images/envases.jpg"
+                            src="/images/fondo12.jpeg"
                             alt="About Us tailwind page"
                             className="max-lg:mx-auto shadow-md object-cover lg:max-h-[400px] lg:max-w-[600px] max-h-[350px] max-w-full w-full"
                         />
