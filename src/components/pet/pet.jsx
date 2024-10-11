@@ -57,7 +57,7 @@ export function Pet() {
                     </div>
                     <div className="img-box h-full brightness-75">
                         <img
-                            src="/images/fondo12.jpeg"
+                            src="/images/fondo9.jpeg"
                             alt="About Us tailwind page"
                             className="max-lg:mx-auto shadow-md object-cover lg:max-h-[400px] lg:max-w-[600px] max-h-[350px] max-w-full w-full"
                         />

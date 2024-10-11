@@ -3,13 +3,13 @@ export default function EnvasesPersonalizados() {
         <section className="mt-16 bg-white">
             {/* Sección superior */}
             <div className="bg-[#334155] relative overflow-hidden">
-                <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8 text-center items-center">
+                <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 text-center items-center">
                     <h1 className="text-4xl font-bold text-white">Envases personalizados</h1>
                     <p className="text-xl text-white mt-4">Lleva tus envases al siguiente nivel</p>
                 </div>
             </div>
 
-            <div className="container py-12 mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="container py-8 mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Sección con imagen y texto */}
                 <div className="flex flex-col md:flex-row items-center justify-between mb-12">
                     <div className="md:w-1/2 md:pr-8">
@@ -27,9 +27,9 @@ export default function EnvasesPersonalizados() {
                         </ul>
                     </div>
 
-                    <div className="md:w-1/2 mt-8 md:mt-0">
+                    <div className="md:w-1/2 mt-8 md:mt-0 brightness-90">
                         <img
-                            src="/images/personalizado.png"
+                            src="/images/fondo13.jpeg"
                             alt="Custom Mold Design"
                             className="w-full min-h-[300px] max-h-[350px] rounded-lg shadow-lg object-cover"
                         />

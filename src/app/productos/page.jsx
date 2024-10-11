@@ -99,11 +99,11 @@ const products = [
 
 const ProductosPage = () => {
   return (
- <section>
+    <section>
       <div className="bg-[#f1f5f9]">
         {/* Encabezado */}
-        <div className="bg-[#1e1b4b] relative mt-16">
-          <div className="container mx-auto px-4 py-16 text-center">
+        <div className="bg-[#334155] relative mt-16">
+          <div className="container mx-auto px-4 py-12 text-center">
             <h1 className="text-4xl font-bold text-white">Nuestros Productos</h1>
             <p className="text-xl text-white mt-4">
               La elección Inteligente con nuestros Envases PET de 3 y 5 Litros
@@ -114,7 +114,7 @@ const ProductosPage = () => {
         {/* Sección de texto */}
         <div className="container mx-auto px-4 py-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="text-lg text-gray-700 leading-relaxed text-justify">
+            <div className="text-lg text-gray-700 leading-relaxed text-justify">
               <p>
                 En un mundo donde la sostenibilidad y la eficiencia son más importantes que nunca, te presentamos nuestros envases de plástico PET, diseñados para satisfacer tus necesidades con estilo y responsabilidad. Con capacidades de 3 y 5 litros.
               </p>

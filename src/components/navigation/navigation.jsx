@@ -49,7 +49,7 @@ export function Navigation() {
                 <Link href={link.route} passHref>
                   <p 
                     onClick={handleLinkClick} 
-                    className='block text-md  text-white p-2 text-gray-900 rounded hover:bg-gray-800 xl:hover:bg-transparent xl:hover:text-blue-700 xl:p-0'
+                    className='block text-sm  text-white p-2 text-gray-900 rounded hover:bg-gray-800 xl:hover:bg-transparent xl:hover:text-blue-700 xl:p-0'
                   >
                     {link.label}
                   </p>
