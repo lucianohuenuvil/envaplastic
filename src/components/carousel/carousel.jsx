@@ -16,7 +16,7 @@ export default function Carousel() {
         {
             image: "/images/fondo9.jpeg",
             text: "ENVAPLASTIC",
-            subtitle: "En ENVAPLASTIC somos especialistas en plásticos",
+            subtitle: "En ENVAPLASTIC somos especialistas en envases plásticos",
             buttonLabel: null,
             buttonLink: "#",
         },
