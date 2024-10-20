@@ -12,7 +12,7 @@ export default function ProductModal({ product, onClose }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white py-4 rounded-lg w-[85vw] max-h-[95vh] overflow-auto shadow-xl">
+      <div className="bg-white py-4 rounded-lg w-[90vw]  overflow-auto shadow-xl">
         <div className="relative flex flex-col md:flex-row h-full">
           {/* Botón de cierre flotante */}
           <button
@@ -88,12 +88,12 @@ export default function ProductModal({ product, onClose }) {
 
             <button
               onClick={onClose}
-              className="mt-6 w-full bg-[#2BA35A] hover:bg-[#229B47] text-white py-2 sm:py-3 rounded-lg transition-all duration-300 text-xs sm:text-sm md:text-base shadow-md">
+              className="mt-2 w-full bg-[#2BA35A] hover:bg-[#229B47] text-white py-2 sm:py-3 rounded-lg transition-all duration-300 text-xs sm:text-sm md:text-base shadow-md">
               Háblanos
             </button>
             <button
               onClick={onClose}
-              className="mt-6 w-full bg-[#be123c] hover:bg-[#9a0f32] text-white py-2 sm:py-3 rounded-lg transition-all duration-300 text-xs sm:text-sm md:text-base shadow-md">
+              className="mt-2 w-full bg-[#be123c] hover:bg-[#9a0f32] text-white py-2 sm:py-3 rounded-lg transition-all duration-300 text-xs sm:text-sm md:text-base shadow-md">
               Cerrar
             </button>
           </div>
