@@ -33,7 +33,7 @@ export default function ProductModal({ product, onClose }) {
           </div>
 
           {/* Información del producto */}
-          <div className="w-full md:w-1/2 p-4 sm:p-6 flex flex-col  rounded-lg border border-gray-200 shadow-sm">
+          <div className="w-full md:w-1/2 m-4 sm:p-6 flex flex-col  rounded-lg border border-gray-200 shadow-sm">
             <div>
               <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2 sm:mb-4">
                 {product.detalles.nombre.descripcion}
