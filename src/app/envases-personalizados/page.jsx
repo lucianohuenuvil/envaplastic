@@ -1,13 +1,17 @@
 export default function EnvasesPersonalizados() {
     return (
-        <section className="mt-16 bg-white">
+        <section className="mt-16 bg-white ">
             {/* Sección superior */}
-            <div className="bg-[#334155] relative overflow-hidden">
-                <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 text-center items-center">
-                    <h1 className="text-4xl font-bold text-white">Envases personalizados</h1>
-                    <p className="text-xl text-white mt-4">Lleva tus envases al siguiente nivel</p>
-                </div>
-            </div>
+            <div className="relative overflow-hidden h-[300px]">
+    <div className="absolute inset-0 bg-black opacity-50 z-10"></div> 
+    <div className="bg-[url('/images/envases-plasticos.jpeg')] bg-cover bg-center h-full relative z-0"></div>
+    
+    <div className="container absolute inset-0 mx-auto h-full flex flex-col justify-center px-4 py-12 sm:px-6 lg:px-8 text-center items-center z-20">
+        <h1 className="text-4xl font-bold text-white">Envases personalizados</h1>
+        <p className="text-xl text-white mt-4">Lleva tus envases al siguiente nivel</p>
+    </div>
+</div>
+
 
             <div className="container py-8 mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Sección con imagen y texto */}
@@ -28,12 +32,14 @@ export default function EnvasesPersonalizados() {
                     </div>
 
                     <div className="md:w-1/2 mt-8 md:mt-0 brightness-90">
-                        <img
-                            src="/images/fondo13.jpeg"
-                            alt="Custom Mold Design"
-                            className="w-full min-h-[300px] max-h-[350px] rounded-lg shadow-lg object-cover"
-                        />
-                    </div>
+    <img
+        src="/images/fondo13.jpeg"
+        alt="Custom Mold Design"
+        style={{ filter: 'brightness(85%)' }}
+        className="w-full h-auto lg:h-[300px] rounded-lg shadow-lg object-cover"
+    />
+</div>
+
                 </div>
 
                 {/* Línea de Procesos Estática con Animación al Pasar el Mouse */}

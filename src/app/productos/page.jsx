@@ -322,7 +322,6 @@ const products = [
 const ProductosPage = () => {
   return (
     <section>
-
       <div className="bg-[#f1f5f9]">
         {/* Encabezado */}
         <div className="h-[300px] bg-[url('/images/fondo13.jpeg')] bg-cover bg-center relative mt-16">
@@ -339,10 +338,6 @@ const ProductosPage = () => {
             </div>
           </div>
         </div>
-
-
-
-
         {/* Sección de texto */}
         <div className="container  max-w-7xl mx-auto px-4 py-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
