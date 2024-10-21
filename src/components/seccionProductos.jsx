@@ -3,7 +3,7 @@ import Link from "next/link";
 export function SeccionProductos() {
     return (
 
-        <Link href="/productos" className="border-y-[1px] relative block w-full min-h-[300px] max-h-[600px] h-[40vw] bg-cover bg-center text-white">
+        <Link href="/productos" className="border-y-[1px] relative block w-full h-[100vh] bg-cover bg-center text-white">
             {/* Imagen de fondo adaptativa */}
             <div className="absolute inset-0 z-0 overflow-hidden">
                 <img
