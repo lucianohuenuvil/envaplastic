@@ -15,13 +15,14 @@ const ProductCard = ({ product }) => {
         <img
           src={product.imagen}
           alt={product.name}
+          style={{ filter: 'brightness(97%)' }}
           className="w-full bg-[#fdfdfd] h-[200px] lg:h-[300px] xs:h-[250px] object-contain transition-opacity duration-300 hover:opacity-90 rounded-t-lg"
         />
         <div className="">
           {/* <h3 className="sm:text-lg xs:text-xs font-semibold text-gray-800 text-center text-gray-400 mb-3">{product.detalles.nombre.descripcion}</h3> */}
           <button
             onClick={openModal}
-            className="w-full bg-[#2b86b8] hover:bg-[#164e63] text-gray-100 py-3 px-6 hover:from-blue-500 hover:to-cyan-500 transition-all duration-300 ease-in-out text-md xs:text-sm rounded-b-lg"
+            className="w-full bg-[#54839D] hover:bg-[#164e63] text-gray-100 py-3 px-6 hover:from-blue-500 hover:to-cyan-500 transition-all duration-300 ease-in-out text-md xs:text-sm rounded-b-lg"
           >
             Ver detalles
           </button>
