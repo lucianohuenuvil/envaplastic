@@ -1,4 +1,5 @@
 // components/ProductModal.js
+import Link from 'next/link';
 import React, { useEffect } from 'react';
 
 export default function ProductModal({ product, onClose }) {
@@ -112,11 +113,13 @@ export default function ProductModal({ product, onClose }) {
               }
             </div>
 
-            <button
-              onClick={onClose}
-              className="mt-2 w-full bg-[#329E4D] hover:bg-[#229B47] text-white py-2 sm:py-3 rounded-lg transition-all duration-300 text-xs sm:text-sm md:text-base shadow-md">
+            <Link
+              href="https://api.whatsapp.com/send?phone=56964212569&text=Hola,%20quiero%20más%20información%20sobre%20sus%20productos."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 w-full bg-[#329E4D] hover:bg-[#229B47] text-white py-2 sm:py-3 rounded-lg transition-all duration-300 text-xs sm:text-sm md:text-base shadow-md text-center">
               Háblanos
-            </button>
+            </Link>
             <button
               onClick={onClose}
               className="mt-2 w-full bg-[#B83152] hover:bg-[#9a0f32] text-white py-2 sm:py-3 rounded-lg transition-all duration-300 text-xs sm:text-sm md:text-base shadow-md">
