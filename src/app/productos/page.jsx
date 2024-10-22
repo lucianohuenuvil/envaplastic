@@ -222,7 +222,7 @@ const products = [
     detalles: {
       nombre: {
         label: 'Nombre',
-        descripcion: 'ENVASE 5 LITROS DESECHABLE '
+        descripcion: 'ENVASE 900 CC DESECHABLE '
       },
       material: {
         label: 'Material',
