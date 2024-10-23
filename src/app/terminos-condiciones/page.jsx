@@ -3,13 +3,22 @@ export const metadata = {
   description: 'Infórmate sobre nuestros términos y condiciones de nuestro sitio web Envaplastic',
 }
 
-
 export default function Legal() {
   return (
+    <>
+      {/* Sección superior */}
+      <div className=" mt-16 relative overflow-hidden h-[150px]">
+        <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
+        <div className="bg-[#617ca6] h-full relative z-0"></div>
+        <div className="container absolute inset-0 mx-auto h-full flex flex-col justify-center px-4 py-12 sm:px-6 lg:px-8 text-center items-center z-20">
+          <h1 className="text-4xl font-bold text-white">Términos y condiciones</h1>
+          {/* <p className="text-xl text-white mt-4">Lleva tus envases al siguiente nivel</p> */}
+        </div>
+      </div>
 
-      <div className="m-8 sm:m-12 mt-12 min-h-screen py-10  sm:px-6 lg:px-8">
+      <div className="sm:m-12 min-h-screen   sm:px-6 lg:px-8">
         <div className="bg-gray-100 max-w-4xl mx-auto p-8 shadow-md rounded-lg">
-          <h1 className="text-3xl font-bold mb-6">Términos y Condiciones</h1>
+          {/* <h1 className="text-3xl font-bold mb-6">Términos y Condiciones</h1> */}
           <p className="mb-4">
             Al acceder y utilizar nuestro sitio web, aceptas estar sujeto a los siguientes términos y condiciones. Si no estás de acuerdo con alguno de estos términos, te recomendamos que no utilices este sitio web.
           </p>
@@ -30,6 +39,7 @@ export default function Legal() {
           <ul className="list-disc pl-5 mb-4">
             <li>Nombre</li>
             <li>Correo electrónico</li>
+            <li>Número de teléfono</li>
             <li>Mensaje u otros datos que el usuario decida proporcionar en el formulario</li>
           </ul>
 
@@ -58,6 +68,7 @@ export default function Legal() {
           </p>
         </div>
       </div>
+    </>
 
   );
 }
