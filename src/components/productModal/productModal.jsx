@@ -1,4 +1,3 @@
-// components/ProductModal.js
 import Link from 'next/link';
 import React, { useEffect } from 'react';
 

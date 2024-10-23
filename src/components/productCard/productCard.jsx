@@ -1,4 +1,3 @@
-// components/ProductCard.js
 'use client'
 import React, { useState } from 'react';
 import ProductModal from '../productModal/productModal';

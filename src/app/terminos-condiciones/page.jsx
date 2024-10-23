@@ -1,3 +1,9 @@
+export const metadata = {
+  title: 'Términos y condiciones - Envaplastic',
+  description: 'Infórmate sobre nuestros términos y condiciones de nuestro sitio web Envaplastic',
+}
+
+
 export default function Legal() {
   return (
 

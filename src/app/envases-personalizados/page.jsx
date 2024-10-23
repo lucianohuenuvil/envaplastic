@@ -1,86 +1,30 @@
-'use client'
+import Link from "next/link";
 
-import Link from 'next/link';
-import { useEffect, useRef, useState } from 'react';
+export const metadata = {
+    title: 'Envases personalizados - Envaplastic',
+    description: 'Descubre nuestra amplia gama de envases PET personalizados para todas tus necesidades.',
+}
 
 export default function EnvasesPersonalizados() {
-
-    const [isVisible, setIsVisible] = useState(false);
-
-    const containerRef = useRef(null);
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting) {
-                    setIsVisible(true);
-                    observer.unobserve(containerRef.current);
-                }
-            },
-            { threshold: 0.1 } // El 10% del contenedor debe estar visible para activar la animación
-        );
-
-        if (containerRef.current) {
-            observer.observe(containerRef.current);
-        }
-
-        return () => {
-            if (containerRef.current) {
-                observer.unobserve(containerRef.current);
-            }
-        };
-    }, []);
     return (
         <section className="mt-16 bg-white ">
             {/* Sección superior */}
             <div className="relative overflow-hidden h-[300px]">
                 <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
                 <div className="bg-[url('/images/envases-plasticos.jpeg')] bg-cover bg-center h-full relative z-0"></div>
-
                 <div className="container absolute inset-0 mx-auto h-full flex flex-col justify-center px-4 py-12 sm:px-6 lg:px-8 text-center items-center z-20">
                     <h1 className="text-4xl font-bold text-white">Envases personalizados</h1>
                     <p className="text-xl text-white mt-4">Lleva tus envases al siguiente nivel</p>
                 </div>
             </div>
-
-
             <div className="container py-8 mx-auto px-4 sm:px-6 lg:px-8">
-                {/* Sección con imagen y texto */}
-                {/* <div className="flex flex-col md:flex-row items-center justify-between mb-12">
-                    <div className="md:w-1/2 md:pr-8">
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Personalización a Tu Medida</h2>
-                        <p className="text-gray-600 mb-6 leading-8 text-justify">
-                            En Envaplastic, no solo ofrecemos envases PET de alta calidad en capacidades de 3 y 5 litros,
-                            sino que también te brindamos la oportunidad de llevar tu visión al siguiente nivel con nuestro servicio de fabricación de moldes a medida.
-                        </p>
-
-                        <ul className="list-disc list-inside text-gray-600 space-y-4">
-                            <li><strong>Fabricación de Moldes a Medida:</strong> Diseño y fabricación de moldes específicos.</li>
-                            <li><strong>Personalización de Envases:</strong> Adaptamos forma, tamaño, color y más.</li>
-                            <li><strong>Atención al Cliente Personalizada:</strong> Servicio excepcional en cada etapa.</li>
-                            <li><strong>Innovación Continuada:</strong> Nos mantenemos a la vanguardia tecnológica.</li>
-                        </ul>
-                    </div>
-
-                    <div className="md:w-1/2 mt-8 md:mt-0 brightness-90">
-                        <img
-                            src="/images/fondo13.jpeg"
-                            alt="Custom Mold Design"
-                            style={{ filter: 'brightness(85%)' }}
-                            className="w-full h-auto lg:h-[300px] rounded-lg shadow-lg object-cover"
-                        />
-                    </div>
-
-                </div> */}
-
-
                 <section className={`mb-10 bg-white relative transition-transform duration-700 ease-out lg:max-h-[450px]`}>
                     <div className="relative h-full">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-9 h-full">
                             <div className="img-box h-full">
                                 <img
                                     src="/images/fondo13.jpeg"
-                                    alt="About Us tailwind pagsse"
+                                    alt="Envases personalizados"
                                     className="rounded-md shadow-xl brightness-90 shadow-md object-cover lg:max-h-[400px] max-h-[250px] max-w-full w-full"
                                 />
                             </div>
@@ -142,12 +86,13 @@ export default function EnvasesPersonalizados() {
                     <h3 className="text-3xl font-bold text-white mb-4">¿Listo para personalizar tus envases?</h3>
                     <p className="text-lg text-white mb-6">Trabajamos juntos para crear envases PET que no solo cumplan con tus necesidades, sino que también sorprendan a tus clientes.
                         Contáctanos hoy mismo para explorar cómo nuestro servicio de fabricación de moldes y personalización puede llevarte a cumplir tus objetivos.</p>
-                    <a
+                    <Link
+                        title="Contáctanos para personalizar tus envases"
                         href="/contacto"
                         className="bg-white text-[#1e1b4E] font-semibold py-3 px-6 rounded-lg hover:bg-gray-200 transition duration-300"
                     >
                         Contáctanos
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>
