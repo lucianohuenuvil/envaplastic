@@ -16,7 +16,7 @@ export default function Legal() {
         </div>
       </div>
 
-      <div className="sm:m-12 min-h-screen   sm:px-6 lg:px-8">
+      <div className="sm:m-12 min-h-screen p-4  sm:px-6 lg:px-8">
         <div className="bg-gray-100 max-w-4xl mx-auto p-8 shadow-md rounded-lg">
           {/* <h1 className="text-3xl font-bold mb-6">Términos y Condiciones</h1> */}
           <p className="mb-4">
