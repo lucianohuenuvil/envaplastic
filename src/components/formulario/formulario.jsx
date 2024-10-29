@@ -15,6 +15,7 @@ export function Formulario() {
     });
 
     const [errors, setErrors] = useState({});
+    const [successMessage, setSuccessMessage] = useState("");
 
     const handleChange = (e) => {
         setFormData({
@@ -81,21 +82,40 @@ export function Formulario() {
         const formErrors = validate();
         if (Object.keys(formErrors).length > 0) {
             setErrors(formErrors);
+            setSuccessMessage(""); // 
         } else {
             setErrors({});
             // Enviar la solicitud
             try {
+                const formPayload = new FormData();
+                formPayload.append('nombre', formData.nombre);
+                formPayload.append('numeroContacto', formData.numeroContacto);
+                formPayload.append('email', formData.email);
+                formPayload.append('message', formData.message);
 
-                const newFormData = new FormData(formData);
                 const response = await fetch("https://envaplastic.cl/sendMail.php", {
                     method: "POST",
-                    body: newFormData,
+                    body: formPayload,
                 });
 
                 const result = await response.text(); // o response.json() si el PHP devuelve un JSON
-                console.log(result); // Mostrar el resultado en la consola
+
+                if (response.ok) {
+                    setSuccessMessage("¡Mensaje enviado exitosamente!");
+                    // Reiniciar el formulario si es necesario
+                    setFormData({
+                        nombre: "",
+                        numeroContacto: "",
+                        email: "",
+                        message: ""
+                    });
+                } else {
+                    setSuccessMessage("Hubo un problema al enviar el mensaje. Inténtalo de nuevo.");
+                }
+
             } catch (error) {
                 console.error("Error al enviar el formulario:", error);
+                setSuccessMessage("Hubo un problema al enviar el mensaje. Inténtalo de nuevo.");
             }
         }
     };
@@ -218,6 +238,8 @@ export function Formulario() {
                 >
                     Enviar
                 </button>
+
+                {successMessage && <div className="success-message">{successMessage}</div>} {/* Mensaje de éxito */}
             </form>
         </section>
     );
