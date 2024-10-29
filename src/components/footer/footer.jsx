@@ -12,6 +12,8 @@ export function Footer() {
                         <br />
                         <span className="text-sm text-gray-500 sm:text-center "> Los Duraznos 0129, La Pintana - Región Metropolitana</span>
                         <br />
+                        <span className="text-sm text-gray-500 sm:text-center "> +569 8811 3986</span>
+                        <br />
                         <span className="text-sm text-gray-500 sm:text-center "> +569 6421 2569</span>
                         <br />
                         <span className="text-sm text-gray-500 sm:text-center "> +569 6232 5380</span>

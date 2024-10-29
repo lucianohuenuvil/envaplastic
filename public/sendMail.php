@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validaciones (agrega aquí tus validaciones como antes)
 
     // Configurar los parámetros del correo
-    $from = "test@hostinger-tutorials.com";
+    $from = "contacto@envaplastic.cl";
     $to = "lucianobvx@gmail.com";
     $subject = "FORMULARIO WEB";
 

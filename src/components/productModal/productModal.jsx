@@ -114,7 +114,7 @@ export default function ProductModal({ product, onClose }) {
             </div>
 
             <Link
-              href="https://api.whatsapp.com/send?phone=56964212569&text=Hola,%20quiero%20más%20información%20sobre%20sus%20productos."
+              href="https://api.whatsapp.com/send?phone=56988113986&text=Hola,%20quiero%20más%20información%20sobre%20sus%20productos."
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 w-full bg-[#329E4D] hover:bg-[#229B47] text-white py-2 sm:py-3 rounded-lg transition-all duration-300 text-xs sm:text-sm md:text-base shadow-md text-center">
