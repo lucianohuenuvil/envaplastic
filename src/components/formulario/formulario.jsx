@@ -85,9 +85,11 @@ export function Formulario() {
             setErrors({});
             // Enviar la solicitud
             try {
+
+                const newFormData = new FormData(formData);
                 const response = await fetch("https://envaplastic.cl/sendMail.php", {
                     method: "POST",
-                    body: formData,
+                    body: newFormData,
                 });
 
                 const result = await response.text(); // o response.json() si el PHP devuelve un JSON

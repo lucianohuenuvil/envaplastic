@@ -23,7 +23,7 @@ export function Footer() {
                             <h2 className="mb-2 md:mb-6 text-sm font-semibold uppercase text-black">SERVICIOS</h2>
                             <ul className="text-gray-500  font-medium">
                                 <li className="mb-4">
-                                    <Link href="/productos" className="hover:underline">Productos</Link>
+                                    <Link href="/nuestros-productos" className="hover:underline">Productos</Link>
                                 </li>
                                 <li>
                                     <Link href="/envases-personalizados" className="hover:underline">Envases personalizados</Link>

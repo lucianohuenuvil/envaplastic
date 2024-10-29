@@ -5,7 +5,7 @@ import { useState } from 'react';
 const links = [
   { label: 'INICIO', route: '/' },
   { label: 'NUESTRA EMPRESA', route: '/#nosotros' },
-  { label: 'PRODUCTOS', route: '/productos' },
+  { label: 'PRODUCTOS', route: '/nuestros-productos' },
   { label: 'ENVASES PERSONALIZADOS', route: '/envases-personalizados' },
   { label: 'CONTACTO', route: '/contacto' },
 ];
