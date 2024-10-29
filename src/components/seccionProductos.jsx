@@ -7,7 +7,7 @@ export function SeccionProductos() {
             {/* Imagen de fondo adaptativa */}
             <div className="absolute inset-0 z-0 overflow-hidden">
                 <img
-                    src='/images/fondoEnvases.webp'
+                    src='/images/envasesFondo.webp'
                     alt="Imagen de productos"
                     className="w-full h-full object-cover"
                     style={{ filter: 'brightness(50%)' }}
