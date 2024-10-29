@@ -83,9 +83,10 @@ export function Formulario() {
             setErrors(formErrors);
         } else {
             setErrors({});
-            console.log("Formulario válido:", formData);
-
-            // Aquí puedes manejar el envío de datos
+            return await fetch ("https://envaplastic.cl/sendMail.php", {
+                method: "POST",
+                body:formData
+            });
         }
     };
 
