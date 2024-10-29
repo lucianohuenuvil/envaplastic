@@ -83,10 +83,18 @@ export function Formulario() {
             setErrors(formErrors);
         } else {
             setErrors({});
-            return await fetch ("https://envaplastic.cl/sendMail.php", {
-                method: "POST",
-                body:formData
-            });
+            // Enviar la solicitud
+            try {
+                const response = await fetch("https://envaplastic.cl/sendMail.php", {
+                    method: "POST",
+                    body: formData,
+                });
+
+                const result = await response.text(); // o response.json() si el PHP devuelve un JSON
+                console.log(result); // Mostrar el resultado en la consola
+            } catch (error) {
+                console.error("Error al enviar el formulario:", error);
+            }
         }
     };
 

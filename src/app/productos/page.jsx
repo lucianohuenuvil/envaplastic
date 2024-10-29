@@ -1,5 +1,5 @@
 import ProductCard from "@/components/productCard/productCard";
-import { productos } from "../../../public/productos/productos";
+import { productos } from "../../../public/data/productos";
 
 
 export const metadata = {
