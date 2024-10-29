@@ -12,7 +12,7 @@ const ProductosPage = () => {
     <section>
       <div className="bg-[#f1f5f9]">
         {/* Encabezado */}
-        <div className="h-[300px] bg-[url('/images/fondo13.jpeg')] bg-cover bg-center relative mt-16">
+        <div className="h-[300px] bg-[url('/images/fondo13.webp')] bg-cover bg-center relative mt-16">
           {/* Capa superpuesta para el brillo oscuro */}
           <div className="absolute inset-0 bg-black opacity-50"></div>
 

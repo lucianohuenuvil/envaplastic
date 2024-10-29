@@ -11,7 +11,7 @@ export default function EnvasesPersonalizados() {
             {/* Sección superior */}
             <div className="relative overflow-hidden h-[300px]">
                 <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
-                <div className="bg-[url('/images/envases-plasticos.jpeg')] bg-cover bg-center h-full relative z-0"></div>
+                <div className="bg-[url('/images/envases-plasticos.webp')] bg-cover bg-center h-full relative z-0"></div>
                 <div className="container absolute inset-0 mx-auto h-full flex flex-col justify-center px-4 py-12 sm:px-6 lg:px-8 text-center items-center z-20">
                     <h1 className="text-4xl font-bold text-white">Envases personalizados</h1>
                     <p className="text-xl text-white mt-4">Lleva tus envases al siguiente nivel</p>
@@ -23,7 +23,7 @@ export default function EnvasesPersonalizados() {
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-9 h-full">
                             <div className="img-box h-full">
                                 <img
-                                    src="/images/fondo13.jpeg"
+                                    src="/images/fondo13.webp"
                                     alt="Envases personalizados"
                                     className="rounded-md shadow-xl brightness-90 shadow-md object-cover lg:max-h-[400px] max-h-[250px] max-w-full w-full"
                                 />

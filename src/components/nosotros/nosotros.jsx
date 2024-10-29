@@ -38,7 +38,7 @@ export function Nosotros() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-9 h-full">
                     <div className="img-box h-full">
                         <img
-                            src="/images/fondo3.jpeg"
+                            src="/images/fondo3.webp"
                             alt="About Us tailwind pagsse"
                             className="max-lg:mx-auto brightness-75 shadow-md object-cover lg:max-h-[400px] lg:max-w-[600px] max-h-[350px] max-w-full w-full"
                         />

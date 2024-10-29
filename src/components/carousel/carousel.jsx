@@ -7,14 +7,14 @@ export default function Carousel() {
     const [animateSlide, setAnimateSlide] = useState(null);
     const slides = [
         {
-            image: "/images/fondo1.png",
+            image: "/images/fondo1.webp",
             text: "¡Bienvenidos a ENVAPLASTIC!",
             subtitle: "Explora nuestros productos y servicios",
             buttonLabel: "Explorar",
             buttonLink: "/#nosotros",
         },
         {
-            image: "/images/fondo9.jpeg",
+            image: "/images/fondo9.webp",
             text: "ENVAPLASTIC",
             subtitle: "En ENVAPLASTIC somos especialistas en envases plásticos",
             buttonLabel: null,
