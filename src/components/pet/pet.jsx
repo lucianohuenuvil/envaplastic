@@ -59,6 +59,7 @@ export function Pet() {
                         <img
                             src="/images/fondo9.webp"
                             alt="About Us tailwind page"
+                            loading="lazy"
                             className="max-lg:mx-auto shadow-md object-cover lg:max-h-[400px] lg:max-w-[600px] max-h-[350px] max-w-full w-full"
                         />
                     </div>

@@ -7,7 +7,7 @@ export function Footer() {
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <Link href="/" className="flex items-center">
-                            <img src="/logoV2.png" className="h-9 me-3" alt="Envaplastic Logo" />
+                            <img src="/logoV2.png" loading="lazy" className="h-9 me-3" alt="Envaplastic Logo" />
                         </Link>
                         <br />
                         <span className="text-sm text-gray-500 sm:text-center "> Los Duraznos 0129, La Pintana - Región Metropolitana</span>

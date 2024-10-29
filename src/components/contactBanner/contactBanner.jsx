@@ -3,7 +3,7 @@ import Link from "next/link";
 export function ContactBanner(){
     return (
         <div className="mt-16 relative min-h-[300px] md:min-h-[400px]">
-          <img src="/images/contact-image.webp" alt="Banner de contacto" className="absolute inset-0 w-full h-full object-cover" />
+          <img src="/images/contact-image.webp" loading="lazy" alt="Banner de contacto" className="absolute inset-0 w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="absolute inset-0 flex items-center justify-center text-center text-white">
             <div className="relative z-10 p-6">

@@ -28,6 +28,7 @@ export default function ProductModal({ product, onClose }) {
             <img
               src={product.imagen}
               alt={product.detalles.nombre.descripcion}
+              loading="lazy"
               className="h-full object-cover rounded-t-lg md:rounded-l-lg md:rounded-t-none"
             />
           </div>

@@ -14,6 +14,7 @@ const ProductCard = ({ product }) => {
         <img
           src={product.imagen}
           alt={product.name}
+          loading="lazy"
           style={{ filter: 'brightness(96%)' }}
           className="w-full bg-[#fdfdfd] h-[200px] lg:h-[300px] xs:h-[250px] object-contain transition-opacity duration-300 hover:opacity-90 rounded-t-lg"
         />

@@ -25,6 +25,7 @@ export default function EnvasesPersonalizados() {
                                 <img
                                     src="/images/fondo13.webp"
                                     alt="Envases personalizados"
+                                    loading="lazy"
                                     className="rounded-md shadow-xl brightness-90 shadow-md object-cover lg:max-h-[400px] max-h-[250px] max-w-full w-full"
                                 />
                             </div>

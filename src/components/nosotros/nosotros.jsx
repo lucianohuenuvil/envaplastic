@@ -40,6 +40,7 @@ export function Nosotros() {
                         <img
                             src="/images/fondo3.webp"
                             alt="About Us tailwind pagsse"
+                            loading="lazy"
                             className="max-lg:mx-auto brightness-75 shadow-md object-cover lg:max-h-[400px] lg:max-w-[600px] max-h-[350px] max-w-full w-full"
                         />
                     </div>

@@ -60,7 +60,7 @@ export default function Carousel() {
             <div className="flex transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${activeSlide * 100}%)` }}>
                 {slides.map((slide, index) => (
                     <div key={index} className="relative flex-shrink-0 w-full h-screen">
-                        <img src={slide.image} className="w-full h-full object-cover" alt={`Slide ${index + 1}`} />
+                        <img src={slide.image} className="w-full h-full object-cover" loading="lazy" alt={`Slide ${index + 1}`} />
 
                         {/* Contenedor de texto y botón */}
                         <div className={`absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black bg-opacity-50`}>

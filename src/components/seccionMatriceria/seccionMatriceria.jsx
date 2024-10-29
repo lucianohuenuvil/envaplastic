@@ -8,6 +8,7 @@ export function SeccionMatriceria() {
                 <img
                     src='/images/fondo6.webp'
                     alt="Imagen de productos"
+                    loading="lazy"
                     className="w-full h-full object-cover"
                     style={{ filter: 'brightness(50%)' }} 
                 />

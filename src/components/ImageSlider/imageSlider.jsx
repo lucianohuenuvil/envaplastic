@@ -31,6 +31,7 @@ export function ImageSlider() {
                 <img
                   src={src.url}
                   alt={`Image ${index + 1}`}
+                  loading="lazy"
                   className="w-full h-[80%] object-contain rounded-lg"
                 />
               </div>
