@@ -239,7 +239,7 @@ export function Formulario() {
                     Enviar
                 </button>
 
-                {successMessage && <div className="success-message">{successMessage}</div>} {/* Mensaje de éxito */}
+                {successMessage && <div className="mt-2 text-green-600 font-bold">{successMessage}</div>} {/* Mensaje de éxito */}
             </form>
         </section>
     );
