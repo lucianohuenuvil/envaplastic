@@ -12,13 +12,14 @@ export function Footer() {
                         <br />
                         <span className="text-sm text-gray-500 sm:text-center "> Los Duraznos 0129, La Pintana - Región Metropolitana</span>
                         <br />
-                        <span className="text-sm text-gray-500 sm:text-center "> +569 8811 3986</span>
+                        <span className="text-sm text-gray-500 sm:text-center"> <strong>Correo electronico:</strong>  contacto@envaplastic.cl</span>
                         <br />
-                        <span className="text-sm text-gray-500 sm:text-center "> +569 6421 2569</span>
+                        {/* <br /> */}
+                        <span className="text-sm text-gray-500 sm:text-center pt-8"> <strong>Teléfonos de contácto:</strong></span>
                         <br />
-                        <span className="text-sm text-gray-500 sm:text-center "> +569 6232 5380</span>
+                        <span className="text-sm text-gray-500 sm:text-center "> (+569 8811 3986) - (+569 6421 2569)</span>
                         <br />
-                        <span className="text-sm text-gray-500 sm:text-center "> +569 8836 5363</span>
+                        <span className="text-sm text-gray-500 sm:text-center "> (+569 6232 5380) - (+569 8836 5363)</span>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 md:grid-cols-3 pt-2">
                         <div>

@@ -7,13 +7,13 @@ import { Footer } from '@/components/footer/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Envaplastic',
-  description: 'Envaplastic ofrece envases PET personalizados de alta calidad.',
-  keywords: 'envases PET, envases personalizados, moldes a medida, PET',
+  title: 'Envaplastic Chile - Envases PET Personalizados de Alta Calidad',
+  description: 'Envaplastic Chile ofrece envases PET personalizados de alta calidad, diseñados y fabricados localmente para satisfacer las necesidades del mercado chileno.',
+  keywords: 'envaplastic, envases plasticos, envaplastic chile, envases PET, envases personalizados, moldes a medida, PET',
   author: 'Envaplastic',
   viewport: 'width=device-width, initial-scale=1.0',
   icons: {
-    icon: '/logo.png',
+    icon: '/logoWEB.png',
   },
   robots: {
     index: true, // Permite que los motores de búsqueda indexen esta página
