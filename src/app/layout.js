@@ -7,8 +7,9 @@ import { Footer } from '@/components/footer/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Envaplastic Chile - Envases PET Personalizados de Alta Calidad',
-  description: 'Envaplastic Chile ofrece envases PET personalizados de alta calidad, diseñados y fabricados localmente para satisfacer las necesidades del mercado chileno.',
+  title: 'Envaplastic Chile - Especialistas en envases plásticos',
+  description: 'Somos Envaplastic Chile, dedicados a ofrecer soluciones y proporcionar envases PET en diferentes tipos de medidas, adaptándonos a las demandas del mercado y los requerimientos específicos de cada cliente.',
+ 
   keywords: 'envaplastic, envases plasticos, envaplastic chile, envases PET, envases personalizados, moldes a medida, PET',
   author: 'Envaplastic',
   viewport: 'width=device-width, initial-scale=1.0',
@@ -20,7 +21,7 @@ export const metadata = {
     follow: true, // Permite que sigan los enlaces en esta página
   },
   // openGraph: {
-  //   title: 'Envaplastic - Envases PET Personalizados',
+  //   title: 'Envaplastic - Especialistas en envases plásticos',
   //   description: 'Explora nuestra gama de envases PET personalizados diseñados para adaptarse a tus necesidades.',
   //   url: 'https://www.envaplastic.cl',
   //   images: [
