@@ -14,25 +14,12 @@ export const metadata = {
   author: 'Envaplastic',
   viewport: 'width=device-width, initial-scale=1.0',
   icons: {
-    icon: '/logoWEB.png',
+    icon: '/logoWEB.ico',
   },
   robots: {
     index: true, // Permite que los motores de búsqueda indexen esta página
     follow: true, // Permite que sigan los enlaces en esta página
   },
-  // openGraph: {
-  //   title: 'Envaplastic - Especialistas en envases plásticos',
-  //   description: 'Explora nuestra gama de envases PET personalizados diseñados para adaptarse a tus necesidades.',
-  //   url: 'https://www.envaplastic.cl',
-  //   images: [
-  //     {
-  //       url: '/images/envaplastic-og-image.jpg',
-  //       width: 1200,
-  //       height: 630,
-  //       alt: 'Envaplastic',
-  //     },
-  //   ],
-  // },
 }
 
 export default function RootLayout({ children }) {
