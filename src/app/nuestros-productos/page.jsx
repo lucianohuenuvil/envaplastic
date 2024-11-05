@@ -3,8 +3,8 @@ import { productos } from "../../../public/data/productos";
 
 
 export const metadata = {
-  title: 'Nuestros productos - Envaplastic',
-  description: 'Descubre nuestros envases PET',
+  title: 'Envases plásticos PET - Envaplastic',
+  description: 'Descubre nuestros productos, la elección Inteligente con nuestros envases PET',
 }
 
 const ProductosPage = () => {
@@ -19,9 +19,9 @@ const ProductosPage = () => {
           {/* Contenido centrado */}
           <div className="relative z-10 flex items-center justify-center h-full">
             <div className="text-center">
-              <h1 className="text-4xl font-bold text-white">Nuestros Productos</h1>
+              <h1 className="text-4xl font-bold text-white">Nuestros envases PET</h1>
               <p className="text-xl text-white mt-4">
-                La elección Inteligente con nuestros Envases PET
+                Descubre nuestros productos, la elección Inteligente con nuestros envases
               </p>
             </div>
           </div>
@@ -52,7 +52,7 @@ const ProductosPage = () => {
       <div className="pt-4 bg-white">
         <div className="container max-w-7xl mx-auto px-4">
           <div className="text-center pb-4">
-            <h2 className="text-3xl font-bold text-gray-600 text-left">Envases PET:</h2>
+            <h2 className="text-3xl font-bold text-gray-600 text-left">Productos:</h2>
           </div>
 
           {/* Listado de productos */}

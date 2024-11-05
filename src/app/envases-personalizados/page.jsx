@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-    title: 'Envases personalizados - Envaplastic',
-    description: 'Descubre nuestra amplia gama de envases PET personalizados para todas tus necesidades.',
+    title: 'Envases plásticos PET Personalizados - Envaplastic',
+    description: 'Brindamos la oportunidad de llevar tu visión al siguiente nivel con nuestro servicio de fabricación de moldes a medida.',
 }
 
 export default function EnvasesPersonalizados() {
@@ -13,7 +13,7 @@ export default function EnvasesPersonalizados() {
                 <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
                 <div className="bg-[url('/images/envases-plasticos.webp')] bg-cover bg-center h-full relative z-0"></div>
                 <div className="container absolute inset-0 mx-auto h-full flex flex-col justify-center px-4 py-12 sm:px-6 lg:px-8 text-center items-center z-20">
-                    <h1 className="text-4xl font-bold text-white">Envases personalizados</h1>
+                    <h1 className="text-4xl font-bold text-white">Envases plásticos PET Personalizados</h1>
                     <p className="text-xl text-white mt-4">Lleva tus envases al siguiente nivel</p>
                 </div>
             </div>
